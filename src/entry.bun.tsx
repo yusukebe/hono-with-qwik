@@ -1,5 +1,5 @@
 import app from './entry.hono'
-import { serveStatic } from 'hono/serve-static.bun'
+import { serveStatic } from 'hono/bun'
 
 app.get('*', serveStatic({ root: './dist' }))
 

@@ -1,5 +1,5 @@
 import app from './entry.hono'
-import { serveStatic } from 'hono/serve-static.module'
+import { serveStatic } from 'hono/cloudflare-workers'
 
 app.get('*', serveStatic({ root: './' }))
 
