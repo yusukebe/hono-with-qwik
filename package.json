@@ -4,6 +4,9 @@
   "engines": {
     "node": ">=15.0.0"
   },
+  "trustedDependencies": [
+    "sharp"
+  ],
   "private": true,
   "scripts": {
     "build": "qwik build",
