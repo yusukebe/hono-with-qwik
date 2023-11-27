@@ -20,9 +20,9 @@ app.get('*', qwikMiddleware({ render, qwikCityPlan }))
 export default app
 ```
 
-#### Error: Something went wrong installing the "sharp" module
+#### ⚠️ Error: Something went wrong installing the "sharp" module
 
-If you run into the error Something went wrong installing the "sharp" module when using bun as a package manager, try to fix it with the following command:
+If you run into the error `Something went wrong installing the "sharp" module` when using bun as a package manager, try to fix it with the following command:
 
 ```sh
 npm rebuild --verbose sharp
