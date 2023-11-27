@@ -20,6 +20,16 @@ app.get('*', qwikMiddleware({ render, qwikCityPlan }))
 export default app
 ```
 
+#### Error: Something went wrong installing the "sharp" module
+
+If you run into the error Something went wrong installing the "sharp" module when using bun as a package manager, try to fix it with the following command:
+
+```sh
+npm rebuild --verbose sharp
+```
+
+This is currently being tracked [here](https://github.com/oven-sh/bun/issues/3783).
+
 ## Author
 
 Yusuke Wada <https://github.com/yusukebe

@@ -43,8 +43,5 @@
     "vite": "5.0.2",
     "vite-tsconfig-paths": "4.2.1",
     "wrangler": "^3.17.1"
-  },
-  "dependencies": {
-    "sharp": "0.32.6"
   }
 }
